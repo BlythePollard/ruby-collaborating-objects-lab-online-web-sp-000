@@ -22,7 +22,7 @@ class Song
     #associate new song with artist
     #return new song instance
   
-     artist, song = filename.split(" - ")
+    artist, song = filename.split(" - ")
     new_song = self.new(name)
     new_song.artist = artist
     new_song
