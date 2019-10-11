@@ -23,9 +23,9 @@ class Song
     #return new song instance
   
     name = filename.split(" - ")[1]
-    song = self.new(name)
     artist = filename.split(" - ")[0]
-    song.artist = artist
+    new_song = self.new(name)
+    new_song.artist = artist
     song
   end
   
